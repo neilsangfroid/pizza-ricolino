@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria ricolino</title>
+    <link rel="stylesheet" href="pizza.css" type="text/css">
+</head>
+<body >
+
+<div id="contenedorG">  
+    <header id="titulo1"><h1 >PIZZERIA RICOLINO</h1></header>
+    <h3 id="titulo2">il negozio di massa</h3>
+    
+  <table>
+    <form id="clasificacion">
+      <td>
+          <p >
+            <input id="radio1" type="radio" name="estrellas" value="5"><!--
+            --><label for="radio1">★</label><!--
+            --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+            --><label for="radio2">★</label><!--
+            --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+            --><label for="radio3">★</label><!--
+            --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+            --><label for="radio4">★</label><!--
+            --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+            --><label for="radio5">★</label>
+          </p>
+      </td>
+    </form>
+  </table>
+  
+  <table id="Login">
+    <tr>
+      <td colspan="2"><h1 id="registro">Registrate</h1></td>
+    </tr>
+    <tr>
+      <td><input size="15" type="tex" placeholder="Nombre"> </td>
+      <td><input size="15" type="tex" placeholder="Apellido"></td>
+    </tr>
+    <tr>
+      <td colspan="2"><input size="36" type="email" placeholder="Numero de celular o correo electronico"></td>
+    </tr>
+    <tr>
+      <td colspan="2"><input size="36" type="password" placeholder="Contraseña nueva" ></td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2"><button>Registrarse ➜</button></td>
+    </tr>
+  </table>
+  <form id="buscador">
+    <div id="lower">
+        <input type="checkbox"><label class="check" for="checkbox">mantenme conectado</label>
+        <!-- Submit Button -->
+        <input type="submit" value="Login">
+        <input type="submit" value="🔎">
+        <input type="text" search="txtbuscar">
+    </div>
+  </form>
+    <!-- ////////////////////// B///////////////////-->
+
+    
+    <nav id="menus">
+      <ul><li id="menu1"><a href="#">Menu</a></li></ul><br>
+      <ul>
+           <br>
+          <li><a href="#">ubicacion</a></li> <br>
+          <li><a href="#">Pizzas</a><ul> <br>
+              <li><a href="#">hawaiana</a></li>
+              <li><a href="#">Americana</a></li>
+              <li><a href="#">Mega Americana</a></li>
+          </ul></li> <br>
+          <li><a href="#">Pollo</a><ul> 
+              <li><a href="#">Alita</a></li>
+              <li><a href="#">Pecho</a></li>
+              <li><a href="#">Pierna</a></li>
+          </ul></li> <br>
+          <li><a href="#">Snacks</a><ul> <br>
+              <li><a href="#">Pan con ajo</a></li>
+          </ul></li> <br>
+          <li><a href="#">Bebidas</a><ul> <br>
+              <li><a href="#">Inca Kola</a></li>
+              <li><a href="#">Chicha</a></li>
+              <li><a href="#">Limonada Frozen</a></li>
+          </ul></li> <br>
+          <li><a href="#">Contacto</a></li> <br>
+      </ul>
+</nav>
+    <!-- C////////////////////////////////--><br>
+    <p id="alerta"><marquee>PROMOCIONES</marquee></p>
+    <table id="tablab" >
+      
+        <tr>
+            <td id="sub">Americana</td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/PizzaAmericana.jpg" ></td>
+        </tr>
+        <tr>
+            <td class="texto"><button>💖</button><button ><img src="imagenes/carrito.png" style="width:20px;"></button>Añadir a la compra</td>
+        </tr>
+        <tr>
+            <td id="sub">Hawaiana extra</td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/pizzaAmericana2.jpg" ></td>
+        </tr>
+        <tr>
+            <td class="texto"><button>💖</button><button ><img src="imagenes/carrito.png" style="width:20px;"></button>Añadir a la compra</td>
+        </tr>
+        <tr>
+            <td id="sub">Americana 2</td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/pizzahawuaiana.jpg" ></td>
+        </tr>
+        <tr>
+            <td class="texto"><button>💖</button><button><img src="imagenes/carrito.png" style="width:20px;"></button>Añadir a la compra</td>
+        </tr>
+        <tr>
+            <td id="sub">Pan al ajo</td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/panAjo.jpg" ></td>
+        </tr>
+        <tr>
+            <td class="texto"><button>💖</button><button><img src="imagenes/carrito.png" style="width:20px;"></button>Añadir a la compra</td>
+        </tr>
+    </table>
+<!-- ////////////////////////////// D /////////////////////////////////   border: 2px solid black;
+    width: 150px;
+    height: 100px;-->
+<form id="contenedor"> 
+        pizza Americana
+        <div id="PIZZ1"><img src="imagenes/PizzaAmericana.jpg" ><button>Ordenar</button></div>
+        Pizza hawuaiana
+        <div id="PIZZ2"><img src="imagenes/pizzaAmericana2.jpg" ><button>Ordenar</button></div>
+        Pizza Americana 2
+        <div id="PIZZ3"><img src="imagenes/pizzahawuaiana.jpg" ><button>Ordenar</button></div>
+        Pan al ajo
+        <div id="PIZZ4"><img src="imagenes/panAjo.jpg" ><button>Ordenar</button></div>
+        <br>
+        <fieldset>
+            <legend>TOTAL</legend>
+            <button>Efectuar Pago</button>
+            <button id="boton">Seguir incluyendo productos en mi orden</button>
+        </fieldset>
+    </form>
+  <!--///////////////////////////////E////////////////////////////-->
+  <form >
+    <table id="formularioG">
+        <tr>
+            <td style="padding: 15px;"><b class="letraE">Ubícanos</b><br>
+                <br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7803.916314548053!2d-77.04280000000001!3d-12.04639999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1621867379090!5m2!1ses-419!2spe" width="600px" height="250px" style="border:0;" allowfullscreen="" loading="lazy"></iframe><br>
+                <br>
+                <b class="letraE">Informes</b><br>
+                📌 Cercado de Lima 15082<br>
+                ✉ empresa@empresa.com<br>
+                📞 +51 123456789<br>
+                <br>
+                <b class="letraE">Suscríbete a nuestro boletín</b><br>
+                <br>
+                <input style="padding: 5px; "  type="text" size="40" maxlength="30" name="nombre" placeholder="Correo Eléctronico"><br>
+                <br>
+                <input style="padding: 5px; width: 325px; border-radius: 5px; background-color: brown;" type="submit" value="Enviar">
+                </td>
+              </table>
+<!--   /////////////////////////////////cuadro de video  ///////////////////////////////////-->
+    <div id="anuncio">
+      <p class="letraE">Anuncio 😍😍😎
+        <iframe width="450" height="315" src="https://www.youtube.com/embed/5MfYsHz4VJU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+
+    </div>
+
+
+
+
+                <!--               ///////////////////                               -->
+                <table id="formularioG2">
+                <td style="padding: 15px;"><b class="letraE">Contáctanos</b><br>
+                <br>
+                <input style="padding: 8px;"  type="text" size="40" maxlength="30" name="nombre" placeholder="Nombre"><br>
+                <br>
+                <input style="padding: 8px;"  type="text" size="40" maxlength="30" name="nombre" placeholder="Correo Eléctronico"><br>
+                <br>
+                <input style="padding: 8px;"  type="text" size="40" maxlength="30" name="nombre" placeholder="Mensaje"><br>
+                <br>
+                <input style="padding: 5px; width: 325px; border-radius: 5px; background-color: brown;" type="submit" value="Enviar">
+                <br>
+                <img src="imagenes/abierto.png" style="width: 200px;">
+    <div id="texto">
+        ABIERTO
+    </div>
+<br>
+                    <b style="font-family: monospace; font-size: 18px; color: white ;">Horarios de Atención<br>
+                    <br>
+                    Lunes a Viernes : 10:00am / 6:00pm<br>
+                    Sabado : 9:00am / 10:00pm<br>
+                    Domingo : 9:00am / 4:00pm</b><br>
+                    <br>
+                    <div id="imagenes">
+                <img src="imagenes/facebook.png" ><span style="color:transparent;">______</span>
+                <img src="imagenes/instagram.png" ><span style="color:transparent;">______</span>
+                <img src="imagenes/twitter.png" >
+                    </div>
+        </tr>
+    </table>
+</form>
+  </div>
+  <script src="pizza.js"></script>
+  
+</body>
+</html>

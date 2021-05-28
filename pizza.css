@@ -1,0 +1,278 @@
+body{
+    background-image: url("imagenes/fondopiza.jpg");
+    background-color:rgb(165,0 , 0,0.5);
+    
+
+    background-size:100%;
+    margin:auto;
+}
+#contenedorG{
+    border:1px gray;
+    width: min-content;
+    margin: auto;
+    
+}
+#titulo1{
+    text-align: center;
+    color: rgb(243, 80, 51);
+    font-family: "Italiana-Regular";
+    font-size: 45px;
+    width: 500px;
+    
+}
+    
+#alerta{
+    position: absolute;
+    top: 200px;
+    width: 360px;
+    color: thistle;
+    font-family: "Jungle DF";
+    font-size: 35px;
+    text-align: center;
+
+}
+    @font-face {
+        font-family:"Jungle DF";
+        src: url("font/Jungle DF.ttf");
+}
+@font-face {
+    font-family:"Italiana-Regular" ;
+    src: url("font/Italiana-Regular.ttf");
+}
+#titulo2{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-family: "Italiana-Regular";
+    font-weight: 100px;
+    color: honeydew;
+     }
+#Login{
+    position: absolute;
+    color: blanchedalmond;
+    top: 0px;
+    right: 20px;
+        
+        
+    
+}
+#clasificacion {
+    position: absolute ;
+    top:20px;
+    right: 25px;
+    width: 200px;
+    height: 250px;
+}
+#form p {
+    text-align: center;
+}
+
+
+#registro{
+    font-family: "Italiana-Regular";
+    color: brown;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    color: gray;
+    
+}
+label:hover,
+label:hover ~ label {
+    color: orange;
+}
+
+
+input[type="radio"]:checked ~ label {
+    color: orange;
+}
+legend{
+    color: cornflowerblue;
+
+}
+#buscador{
+    position: absolute ;
+    top:200px;
+    right: 25px;
+    width: 200px;
+    height: 250px;
+    color: blanchedalmond;
+
+}
+/* ///////// B///////////////////////////////////////////////////*/
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+#menus{
+    position: absolute;
+    top:250px;
+    left: 5px;
+}
+
+li{
+    list-style-type:none;
+    position:relative;
+    width:120px;
+}
+
+li a{
+    text-decoration:none;
+    display:inline-block;
+    font-size: 25px;
+    font-family: "Jungle DF";
+    text-align: center;
+    padding:15px ;
+    width: 140px;
+    height:100px;
+    border:1px solid brown;
+    color:#fff;
+    background-color:brown;
+}
+
+li a:hover{
+    color: black;
+    background-color:#fff;
+
+}
+
+nav li ul{
+        display:none;
+        position:absolute;
+        top:0px;
+        left:142px;
+        height: 150px;
+        padding: 5px;
+}
+
+nav li:hover ul{display:block;}
+
+/* //////////////////////////C/////////////////////////////// */
+
+#tablab{
+    position: absolute;
+    right: 600px;
+    top:280px;
+    width: 400px;
+    border: 1px solid black;
+    background: brown;
+    
+}
+@font-face {
+    font-family: "undertale";
+    src: url("font/AnotherDay.ttf");
+}
+#tablab img{
+    width: 250px;
+}
+#sub{
+
+    font-family: "undertale";
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+
+.class{
+    width: 5em;
+}
+
+.texto{
+    font-family: serif;
+    color: rgb(5, 5, 5);  
+    font-size: 25px;
+}
+table td{
+    text-align: center;
+}
+
+/*///////////////////////////// D//////////////////////////// */
+#contenedor{
+    position: absolute;
+    right: 50px;
+    top: 280px;
+    border:2px solid black;
+    width: 350px;
+    height: 610px;
+    padding: 30px;
+    font-size: 20px;
+    background-color: rgb(202, 116, 89);
+    font-family: cursive;
+}
+#PIZZ1{
+    
+   
+}
+#contenedor img{
+    border: 2px solid black;
+    width: 100px;
+    height: 50px;
+}
+button{
+    background: red;
+    width: 90px;
+    color: #f8f8f8;
+    font-family: cursive;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+}
+#boton{
+    background: red;
+    width: 300px;
+    color: #f8f8f8;
+    font-family: cursive;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* ///////////////////////////////////// ANUNCIO //////////////////////// */
+#anuncio{
+    border: 1px solid black;
+    text-align: center;
+    background: brown;
+    position: absolute; 
+    top: 950px;
+    width: 500px;
+    right: 40px;
+    padding: 5px;
+
+    
+}
+/* ///////////////////////E //////////////////////// */
+#formularioG{
+    position: absolute;
+    left:0px;
+    top:1400px;
+}
+#formularioG2{
+    position: absolute;
+    left:800px;
+    top:1400px;
+}
+#imagenes img{
+    width: 70px;
+    height: 50px;
+}
+#texto{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 125px;
+    font-size: 25px;
+    font-family: 'Lucida Bright';
+}
+.letraE{
+    font-family: "Jungle DF"; 
+    font-size: 50px 15px;
+    color: thistle;
+    font-size: 2rem;
+    
+}
